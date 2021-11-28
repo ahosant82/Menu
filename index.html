@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Menu-Pluging</title>
+    <!----css link------->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!---------icon css link-------->
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+    <!-----js link------> 
+    <script type="text/javascript" src="plugins/js/jquery3.4.1.js"></script>
+    <script src="plugins/js/script.js"></script>
+   
+		<!----bootstrap js------>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+    </script>
+  </head>
+  <body>
+    <!--------logo with nevigetion bar-------->
+    <nav class="logo-with-main-menu">
+      <h2>Brand Logo</h2>
+      <input type="checkbox" id="check">
+      <label for="check">
+				<i class="fas fa-bars" id="btn"></i>
+				<i class="fas fa-times" id="cancel"></i>
+			</label>
+      <ul class="menu">
+        <li class="menu-item"><a class="menu-link" href="#">Home</a></li>
+        <li class="menu-item"><a class="menu-link" href="#">About Us</a></li>
+        <li class="menu-item has-dropdown"><span class="menu-link">Cetagorys</span>
+          <ul class="dropdown-nav">
+            <li class="menu-item" id="dropdown-btn-1"><span class="menu-link">Products</span>
+              <ul class="dropdown-nav" id="dropdown-nav-1">
+                <li class="menu-item"><a href="#" class="menu-link">E-commarce Products</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Web Solution</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Online Marketing</a></li>
+              </ul>
+            </li>
+            <li class="menu-item" id="dropdown-btn-2"><span class="menu-link" href="#">service</span>
+              <ul class="dropdown-nav" id="dropdown-nav-2">
+                <li class="menu-item"><a href="#" class="menu-link">Offline service</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Online servive</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">concultence</a></li>
+              </ul>
+            </li>
+            <li class="menu-item"><a class="menu-link" href="#">Help line</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Technology</a></li>
+          </ul>
+        </li>
+        <li class="menu-item"><a class="menu-link" href="#">Blogs</a></li>
+        <li class="menu-item"><a class="menu-link" href="#">Contuct Us</a></li>
+        <section class="socal-media">
+          <a href="#" class="fab fa-facebook"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-behance-square"></a>
+          <section class="copyright">
+            <p>COPYRIGHT BY @<a href="#">A.R.TONMOY</a> at 2021</p>
+          </section>
+        </section>
+      
+      </ul>
+    </nav>
+    <!--------nevigetion bar-------->
+    <nav class="main-menu">
+      <input type="checkbox" id="check">
+      <label for="check">
+				<i class="fas fa-bars" id="btn"></i>
+				<i class="fas fa-times" id="cancel"></i>
+			</label>
+      <ul class="menu">
+        <li class="menu-item"><a class="menu-link" href="#">Home</a></li>
+        <li class="menu-item"><a class="menu-link" href="#">About Us</a></li>
+        <li class="menu-item has-dropdown"><span class="menu-link">Cetagorys</span>
+          <ul class="dropdown-nav">
+            <li class="menu-item" id="dropdown-btn-1"><span class="menu-link">Products</span>
+              <ul class="dropdown-nav" id="dropdown-nav-1">
+                <li class="menu-item"><a href="#" class="menu-link">E-commarce Products</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Web Solution</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Online Marketing</a></li>
+              </ul>
+            </li>
+            <li class="menu-item" id="dropdown-btn-2"><span class="menu-link" href="#">service</span>
+              <ul class="dropdown-nav" id="dropdown-nav-2">
+                <li class="menu-item"><a href="#" class="menu-link">Offline service</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Online servive</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">concultence</a></li>
+              </ul>
+            </li>
+            <li class="menu-item"><a class="menu-link" href="#">Help line</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Technology</a></li>
+          </ul>
+        </li>
+        <li class="menu-item"><a class="menu-link" href="#">Blogs</a></li>
+        <li class="menu-item"><a class="menu-link" href="#">Contuct Us</a></li>
+      </ul>
+    </nav>
+    <!--------Buttom nevigetion bar-------->
+    <nav class="buttom-menu">
+      <a  class="fas fa-bars" id="menu-open"></a>
+      <a href="#" class="fas fa-shopping-bag"></a>
+      <div class="half-circle"><i href="#" class="fas fa-home home"></i></div>
+      <a href="#" class="fas fa-tags tag"></a>
+      <a href="#" class="fas fa-blog"></a>
+    </nav>
+    <nav>
+      <div id="menu">
+        <a class="fas fa-times" id="menu-close"></a>
+        <img src="img/logo.png">
+        <input type="submit" value="sign in" class="btn" id="login-btn">
+        <hr>
+        <nav>
+          <ul>
+            <li id='active' ><i class="fas fa-home"></i><a href="#">Home</li>
+            <li><i class='bx bxs-collection'></i><a href="#">All Catagories</a>
+              <ul class="dropdown">
+                <li><A href="#">Plants</A>
+              <ul class="submenu">
+                  <li><A href="#">Indoor Plants</A></li>
+                  <li><A href="#">Outdoor Plants</A></li>
+                  <li><A href="#">Trees</A></li>
+                  </ul>
+                </li>
+                <li><A href="#">Plant Medicine</A></li>
+                <li><A href="#">Accesorise</A>
+
+              <ul class="submenu">
+                    <li><a href="#">Gio Bags</a></li>
+                    <li><a href="#">Tubs</a></li>
+                    <li><a href="#">Garden Tools</a></li>
+                    <li><a href="#">Garden kits</a></li>
+                    <li><a href="#">Garden soil</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><i class='bx bxl-shopify'></i><a href="#">Our Shop</a></li>
+            <li><i class='bx bxs-contact'></i><a href="#">Contuct Us</a></li>
+          </ul>
+        </nav>
+        <div class="contuct">
+          <i>Phone: +8801994361085</i><br>
+          <i>Email: dogp.2020@gmail.com</i>
+        </div>            
+        <div id="buttom">
+          <div class="icn">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-youtube"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-twitter" style="background: none;"></a>
+            <a href="#" class="fas fa-envelope-square"></a>
+          </div>
+          <hr>
+          <p>Copyright By @<a href="#">A.R.Tonmoy</a> at 2021</p>
+        </div>
+    </nav>
+
+  </body>
+</html>
